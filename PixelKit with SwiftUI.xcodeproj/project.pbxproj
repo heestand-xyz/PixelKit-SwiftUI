@@ -100,7 +100,7 @@
 				E5B0596525B1E59000AC6D62 /* PixelKitSwiftUIApp.swift */,
 				E5B0596625B1E59000AC6D62 /* ContentView.swift */,
 				E5CABE5F25CC1E5000A11DDB /* Views */,
-				E5CABE5B25CC1C0600A11DDB /* Assets */,
+				E5CABE5B25CC1C0600A11DDB /* Resources */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -131,13 +131,13 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
-		E5CABE5B25CC1C0600A11DDB /* Assets */ = {
+		E5CABE5B25CC1C0600A11DDB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				E5B0596725B1E59100AC6D62 /* Assets.xcassets */,
 				E5118CA025CC0B0800FF807D /* homie_by_beeple.mp4 */,
 			);
-			path = Assets;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		E5CABE5F25CC1E5000A11DDB /* Views */ = {

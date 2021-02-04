@@ -1,14 +1,30 @@
+<img src="https://github.com/heestand-xyz/PixelKit-SwiftUI/blob/main/Assets/Setup/Icon.png?raw=true" height=100>
 
 # PixelKit with SwiftUI
+
+## Setup
+
+In Xcode go to File / Swift Packages / Add Package Dependecy... enter the repo url, then specify the **lite** branch:
+
+```
+https://github.com/heestand-xyz/PixelKit
+```
+
+<img src="https://github.com/heestand-xyz/PixelKit-SwiftUI/blob/main/Assets/Setup/AddRepo.png?raw=true" height=166>
+
+Import SwiftUI and PixelKit:
 
 ```swift
 import SwiftUI
 import PixelKit
 ```
+Note the examples in this repo you need to **Play Previews** so PixelKit can render:
+
+<img src="https://github.com/heestand-xyz/PixelKit-SwiftUI/blob/main/Assets/Setup/PlayPreview.png?raw=true" height=124>
 
 ## Color Triangle
 
-<img src="https://github.com/heestand-xyz/PixelKit-SwiftUI/blob/main/Assets/ColorTriangle.png?raw=true" height=500>
+<img src="https://github.com/heestand-xyz/PixelKit-SwiftUI/blob/main/Assets/Examples/ColorTriangle.png?raw=true" height=500>
 
 ```swift
 struct ColorTriangle: View {
@@ -31,7 +47,7 @@ struct ColorTriangle: View {
 
 ## Tilt Shift
 
-<img src="https://github.com/heestand-xyz/PixelKit-SwiftUI/blob/main/Assets/TiltShift.png?raw=true" height=500>
+<img src="https://github.com/heestand-xyz/PixelKit-SwiftUI/blob/main/Assets/Examples/TiltShift.png?raw=true" height=500>
 
 ```swift
 struct TiltShift: View {
@@ -55,7 +71,7 @@ struct TiltShift: View {
 
 ## Video Mask
 
-<img src="https://github.com/heestand-xyz/PixelKit-SwiftUI/blob/main/Assets/VideoMask.png?raw=true" height=500>
+<img src="https://github.com/heestand-xyz/PixelKit-SwiftUI/blob/main/Assets/Examples/VideoMask.png?raw=true" height=500>
 
 ```swift
 struct VideoMask: View {

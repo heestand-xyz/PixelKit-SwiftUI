@@ -15,8 +15,8 @@
 		E5118CA225CC0B0800FF807D /* homie_by_beeple.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E5118CA025CC0B0800FF807D /* homie_by_beeple.mp4 */; };
 		E5118CA425CC0B4F00FF807D /* VideoMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5118CA325CC0B4F00FF807D /* VideoMask.swift */; };
 		E5118CA525CC0B4F00FF807D /* VideoMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5118CA325CC0B4F00FF807D /* VideoMask.swift */; };
-		E5415B5925CC27330087257C /* PixelKit in Frameworks */ = {isa = PBXBuildFile; productRef = E5415B5825CC27330087257C /* PixelKit */; };
-		E59C048C25CC28260097B2C3 /* PixelKit in Frameworks */ = {isa = PBXBuildFile; productRef = E59C048B25CC28260097B2C3 /* PixelKit */; };
+		E558E95425CC2DD400E38970 /* PixelKit in Frameworks */ = {isa = PBXBuildFile; productRef = E558E95325CC2DD400E38970 /* PixelKit */; };
+		E558E95625CC2DDA00E38970 /* PixelKit in Frameworks */ = {isa = PBXBuildFile; productRef = E558E95525CC2DDA00E38970 /* PixelKit */; };
 		E5B0597825B1E59100AC6D62 /* PixelKitSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B0596525B1E59000AC6D62 /* PixelKitSwiftUIApp.swift */; };
 		E5B0597925B1E59100AC6D62 /* PixelKitSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B0596525B1E59000AC6D62 /* PixelKitSwiftUIApp.swift */; };
 		E5B0597A25B1E59100AC6D62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B0596625B1E59000AC6D62 /* ContentView.swift */; };
@@ -55,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E59C048C25CC28260097B2C3 /* PixelKit in Frameworks */,
+				E558E95425CC2DD400E38970 /* PixelKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5415B5925CC27330087257C /* PixelKit in Frameworks */,
+				E558E95625CC2DDA00E38970 /* PixelKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,7 +173,7 @@
 			);
 			name = "PixelKit with SwiftUI (iOS)";
 			packageProductDependencies = (
-				E59C048B25CC28260097B2C3 /* PixelKit */,
+				E558E95325CC2DD400E38970 /* PixelKit */,
 			);
 			productName = "PixelKit SwiftUI (iOS)";
 			productReference = E5B0596C25B1E59100AC6D62 /* PixelKit with SwiftUI.app */;
@@ -193,7 +193,7 @@
 			);
 			name = "PixelKit with SwiftUI (macOS)";
 			packageProductDependencies = (
-				E5415B5825CC27330087257C /* PixelKit */,
+				E558E95525CC2DDA00E38970 /* PixelKit */,
 			);
 			productName = "PixelKit SwiftUI (macOS)";
 			productReference = E5B0597425B1E59100AC6D62 /* PixelKit.app */;
@@ -226,7 +226,7 @@
 			);
 			mainGroup = E5B0595F25B1E59000AC6D62;
 			packageReferences = (
-				E5415B5525CC27260087257C /* XCRemoteSwiftPackageReference "PixelKit" */,
+				E558E95225CC2DD400E38970 /* XCRemoteSwiftPackageReference "PixelKit" */,
 			);
 			productRefGroup = E5B0596D25B1E59100AC6D62 /* Products */;
 			projectDirPath = "";
@@ -532,9 +532,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		E5415B5525CC27260087257C /* XCRemoteSwiftPackageReference "PixelKit" */ = {
+		E558E95225CC2DD400E38970 /* XCRemoteSwiftPackageReference "PixelKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/heestand-xyz/PixelKit.git";
+			repositoryURL = "https://github.com/heestand-xyz/PixelKit";
 			requirement = {
 				branch = lite;
 				kind = branch;
@@ -543,14 +543,14 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		E5415B5825CC27330087257C /* PixelKit */ = {
+		E558E95325CC2DD400E38970 /* PixelKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E5415B5525CC27260087257C /* XCRemoteSwiftPackageReference "PixelKit" */;
+			package = E558E95225CC2DD400E38970 /* XCRemoteSwiftPackageReference "PixelKit" */;
 			productName = PixelKit;
 		};
-		E59C048B25CC28260097B2C3 /* PixelKit */ = {
+		E558E95525CC2DDA00E38970 /* PixelKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E5415B5525CC27260087257C /* XCRemoteSwiftPackageReference "PixelKit" */;
+			package = E558E95225CC2DD400E38970 /* XCRemoteSwiftPackageReference "PixelKit" */;
 			productName = PixelKit;
 		};
 /* End XCSwiftPackageProductDependency section */

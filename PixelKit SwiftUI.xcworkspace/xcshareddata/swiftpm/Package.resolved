@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "PixelColor",
+        "repositoryURL": "https://github.com/heestand-xyz/PixelColor.git",
+        "state": {
+          "branch": null,
+          "revision": "e3fcb1a7d93b4f6deb4a75250b0c650a793f8c7d",
+          "version": "1.0.3"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

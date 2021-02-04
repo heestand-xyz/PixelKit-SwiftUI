@@ -15,6 +15,8 @@
 		E5118CA225CC0B0800FF807D /* homie_by_beeple.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E5118CA025CC0B0800FF807D /* homie_by_beeple.mp4 */; };
 		E5118CA425CC0B4F00FF807D /* VideoMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5118CA325CC0B4F00FF807D /* VideoMask.swift */; };
 		E5118CA525CC0B4F00FF807D /* VideoMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5118CA325CC0B4F00FF807D /* VideoMask.swift */; };
+		E5415B5925CC27330087257C /* PixelKit in Frameworks */ = {isa = PBXBuildFile; productRef = E5415B5825CC27330087257C /* PixelKit */; };
+		E59C048C25CC28260097B2C3 /* PixelKit in Frameworks */ = {isa = PBXBuildFile; productRef = E59C048B25CC28260097B2C3 /* PixelKit */; };
 		E5B0597825B1E59100AC6D62 /* PixelKitSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B0596525B1E59000AC6D62 /* PixelKitSwiftUIApp.swift */; };
 		E5B0597925B1E59100AC6D62 /* PixelKitSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B0596525B1E59000AC6D62 /* PixelKitSwiftUIApp.swift */; };
 		E5B0597A25B1E59100AC6D62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B0596625B1E59000AC6D62 /* ContentView.swift */; };
@@ -27,10 +29,6 @@
 		E5CABE5E25CC1C4800A11DDB /* Monochrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CABE5C25CC1C4800A11DDB /* Monochrome.swift */; };
 		E5CABE6125CC1E6700A11DDB /* TiltShift.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CABE6025CC1E6700A11DDB /* TiltShift.swift */; };
 		E5CABE6225CC1E6700A11DDB /* TiltShift.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CABE6025CC1E6700A11DDB /* TiltShift.swift */; };
-		E5EA437225B1E5C400BA8850 /* PixelKit in Frameworks */ = {isa = PBXBuildFile; productRef = E5EA437125B1E5C400BA8850 /* PixelKit */; };
-		E5EA437825B1E63900BA8850 /* RenderKit in Frameworks */ = {isa = PBXBuildFile; productRef = E5EA437725B1E63900BA8850 /* RenderKit */; };
-		E5EA437C25B1E64200BA8850 /* PixelKit in Frameworks */ = {isa = PBXBuildFile; productRef = E5EA437B25B1E64200BA8850 /* PixelKit */; };
-		E5EA437E25B1E64400BA8850 /* RenderKit in Frameworks */ = {isa = PBXBuildFile; productRef = E5EA437D25B1E64400BA8850 /* RenderKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +36,7 @@
 		E5118C9C25CC080D00FF807D /* PlayPreviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayPreviews.swift; sourceTree = "<group>"; };
 		E5118CA025CC0B0800FF807D /* homie_by_beeple.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = homie_by_beeple.mp4; sourceTree = "<group>"; };
 		E5118CA325CC0B4F00FF807D /* VideoMask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoMask.swift; sourceTree = "<group>"; };
+		E5415B5425CC26C80087257C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E5B0596525B1E59000AC6D62 /* PixelKitSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelKitSwiftUIApp.swift; sourceTree = "<group>"; };
 		E5B0596625B1E59000AC6D62 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E5B0596725B1E59100AC6D62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,8 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5EA437225B1E5C400BA8850 /* PixelKit in Frameworks */,
-				E5EA437825B1E63900BA8850 /* RenderKit in Frameworks */,
+				E59C048C25CC28260097B2C3 /* PixelKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,8 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5EA437C25B1E64200BA8850 /* PixelKit in Frameworks */,
-				E5EA437E25B1E64400BA8850 /* RenderKit in Frameworks */,
+				E5415B5925CC27330087257C /* PixelKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +84,7 @@
 		E5B0595F25B1E59000AC6D62 = {
 			isa = PBXGroup;
 			children = (
+				E5415B5425CC26C80087257C /* README.md */,
 				E5118C9F25CC0A4700FF807D /* Examples */,
 				E5B0596425B1E59000AC6D62 /* Shared */,
 				E5B0596E25B1E59100AC6D62 /* iOS */,
@@ -175,8 +173,7 @@
 			);
 			name = "PixelKit with SwiftUI (iOS)";
 			packageProductDependencies = (
-				E5EA437125B1E5C400BA8850 /* PixelKit */,
-				E5EA437725B1E63900BA8850 /* RenderKit */,
+				E59C048B25CC28260097B2C3 /* PixelKit */,
 			);
 			productName = "PixelKit SwiftUI (iOS)";
 			productReference = E5B0596C25B1E59100AC6D62 /* PixelKit with SwiftUI.app */;
@@ -196,8 +193,7 @@
 			);
 			name = "PixelKit with SwiftUI (macOS)";
 			packageProductDependencies = (
-				E5EA437B25B1E64200BA8850 /* PixelKit */,
-				E5EA437D25B1E64400BA8850 /* RenderKit */,
+				E5415B5825CC27330087257C /* PixelKit */,
 			);
 			productName = "PixelKit SwiftUI (macOS)";
 			productReference = E5B0597425B1E59100AC6D62 /* PixelKit.app */;
@@ -229,6 +225,9 @@
 				Base,
 			);
 			mainGroup = E5B0595F25B1E59000AC6D62;
+			packageReferences = (
+				E5415B5525CC27260087257C /* XCRemoteSwiftPackageReference "PixelKit" */,
+			);
 			productRefGroup = E5B0596D25B1E59100AC6D62 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -532,22 +531,27 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		E5415B5525CC27260087257C /* XCRemoteSwiftPackageReference "PixelKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/heestand-xyz/PixelKit.git";
+			requirement = {
+				branch = lite;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
-		E5EA437125B1E5C400BA8850 /* PixelKit */ = {
+		E5415B5825CC27330087257C /* PixelKit */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = E5415B5525CC27260087257C /* XCRemoteSwiftPackageReference "PixelKit" */;
 			productName = PixelKit;
 		};
-		E5EA437725B1E63900BA8850 /* RenderKit */ = {
+		E59C048B25CC28260097B2C3 /* PixelKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = RenderKit;
-		};
-		E5EA437B25B1E64200BA8850 /* PixelKit */ = {
-			isa = XCSwiftPackageProductDependency;
+			package = E5415B5525CC27260087257C /* XCRemoteSwiftPackageReference "PixelKit" */;
 			productName = PixelKit;
-		};
-		E5EA437D25B1E64400BA8850 /* RenderKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = RenderKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

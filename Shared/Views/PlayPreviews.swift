@@ -23,6 +23,7 @@ struct PlayPreviews: View {
                     RoundedRectangle(cornerRadius: 10)
                         .stroke()
                 }
+                .shadow(radius: 10)
             )
             .padding()
             .opacity(preview && !playing ? 1.0 : 0.0)

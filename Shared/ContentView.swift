@@ -23,7 +23,6 @@ struct ContentView: View {
                 .padding()
                 Spacer()
             }
-//            .navigationTitle("PixelKit")
         }
     }
 }

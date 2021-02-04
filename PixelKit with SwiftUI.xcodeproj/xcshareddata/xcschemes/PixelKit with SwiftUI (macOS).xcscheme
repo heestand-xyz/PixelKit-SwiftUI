@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E5B0597325B1E59100AC6D62"
-               BuildableName = "PixelKit with SwiftUI.app"
+               BuildableName = "PixelKit.app"
                BlueprintName = "PixelKit with SwiftUI (macOS)"
                ReferencedContainer = "container:PixelKit with SwiftUI.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E5B0597325B1E59100AC6D62"
-            BuildableName = "PixelKit with SwiftUI.app"
+            BuildableName = "PixelKit.app"
             BlueprintName = "PixelKit with SwiftUI (macOS)"
             ReferencedContainer = "container:PixelKit with SwiftUI.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E5B0597325B1E59100AC6D62"
-            BuildableName = "PixelKit with SwiftUI.app"
+            BuildableName = "PixelKit.app"
             BlueprintName = "PixelKit with SwiftUI (macOS)"
             ReferencedContainer = "container:PixelKit with SwiftUI.xcodeproj">
          </BuildableReference>

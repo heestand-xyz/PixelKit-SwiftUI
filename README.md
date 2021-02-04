@@ -2,6 +2,8 @@
 
 # PixelKit with SwiftUI
 
+Realtime graphics in [PixelKit](https://github.com/heestand-xyz/PixelKit) with SwiftUI.
+
 ## Setup
 
 In Xcode go to File / Swift Packages / Add Package Dependecy... enter the repo url, then specify the **lite** branch:
@@ -65,24 +67,6 @@ struct TiltShift: View {
                             ColorStep(1.0, .white),
                         ])
         }
-    }
-}
-```
-
-## Video Mask
-
-<img src="https://github.com/heestand-xyz/PixelKit-SwiftUI/blob/main/Assets/Examples/VideoMask.png?raw=true" height=500>
-
-```swift
-struct VideoMask: View {
-    var body: some View {
-        VideoPIX(named: "homie_by_beeple.mp4")
-            .pixScaleResolution(placement: .fill)
-            .pixMask {
-                PolygonPIX(radius: 0.35,
-                           count: 3,
-                           cornerRadius: 0.1)
-            }
     }
 }
 ```

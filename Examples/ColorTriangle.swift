@@ -22,13 +22,13 @@ struct ColorTriangle: View {
             GradientPIX()
                 .pixContrast(3.0)
         }
+        .ignoresSafeArea()
     }
 }
 
 struct ColorTriangle_Previews: PreviewProvider {
     static var previews: some View {
         ColorTriangle()
-            .ignoresSafeArea()
             .overlay(PlayPreviews())
     }
 }

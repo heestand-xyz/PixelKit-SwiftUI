@@ -13,13 +13,13 @@ struct Monochrome: View {
         ImagePIX(named: "Kite")
             .pixScaleResolution(placement: .fill)
             .pixSaturation(0.0)
+            .ignoresSafeArea()
     }
 }
 
 struct Monochrome_Previews: PreviewProvider {
     static var previews: some View {
         Monochrome()
-            .ignoresSafeArea()
             .overlay(PlayPreviews())
     }
 }

@@ -15,6 +15,8 @@
 		E5118CA225CC0B0800FF807D /* homie_by_beeple.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E5118CA025CC0B0800FF807D /* homie_by_beeple.mp4 */; };
 		E5118CA425CC0B4F00FF807D /* VideoMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5118CA325CC0B4F00FF807D /* VideoMask.swift */; };
 		E5118CA525CC0B4F00FF807D /* VideoMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5118CA325CC0B4F00FF807D /* VideoMask.swift */; };
+		E51B321125CC84C200B77CD7 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51B321025CC84C200B77CD7 /* Circle.swift */; };
+		E51B321225CC84C200B77CD7 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51B321025CC84C200B77CD7 /* Circle.swift */; };
 		E5485B0125CC35D00071BFF4 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5485B0025CC35D00071BFF4 /* Test.swift */; };
 		E5485B0225CC35D00071BFF4 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5485B0025CC35D00071BFF4 /* Test.swift */; };
 		E558E95425CC2DD400E38970 /* PixelKit in Frameworks */ = {isa = PBXBuildFile; productRef = E558E95325CC2DD400E38970 /* PixelKit */; };
@@ -38,6 +40,7 @@
 		E5118C9C25CC080D00FF807D /* PlayPreviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayPreviews.swift; sourceTree = "<group>"; };
 		E5118CA025CC0B0800FF807D /* homie_by_beeple.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = homie_by_beeple.mp4; sourceTree = "<group>"; };
 		E5118CA325CC0B4F00FF807D /* VideoMask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoMask.swift; sourceTree = "<group>"; };
+		E51B321025CC84C200B77CD7 /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
 		E5415B5425CC26C80087257C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E5485B0025CC35D00071BFF4 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		E5B0596525B1E59000AC6D62 /* PixelKitSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelKitSwiftUIApp.swift; sourceTree = "<group>"; };
@@ -80,6 +83,7 @@
 				E5CABE5C25CC1C4800A11DDB /* Monochrome.swift */,
 				E5118C9925CC07D200FF807D /* ColorTriangle.swift */,
 				E5118CA325CC0B4F00FF807D /* VideoMask.swift */,
+				E51B321025CC84C200B77CD7 /* Circle.swift */,
 				E5485B0025CC35D00071BFF4 /* Test.swift */,
 			);
 			path = Examples;
@@ -273,6 +277,7 @@
 				E5485B0125CC35D00071BFF4 /* Test.swift in Sources */,
 				E5B0597A25B1E59100AC6D62 /* ContentView.swift in Sources */,
 				E5CABE5925CC1B0000A11DDB /* BoxView.swift in Sources */,
+				E51B321125CC84C200B77CD7 /* Circle.swift in Sources */,
 				E5118C9D25CC080D00FF807D /* PlayPreviews.swift in Sources */,
 				E5CABE6125CC1E6700A11DDB /* TiltShift.swift in Sources */,
 				E5B0597825B1E59100AC6D62 /* PixelKitSwiftUIApp.swift in Sources */,
@@ -289,6 +294,7 @@
 				E5485B0225CC35D00071BFF4 /* Test.swift in Sources */,
 				E5B0597B25B1E59100AC6D62 /* ContentView.swift in Sources */,
 				E5CABE5A25CC1B0000A11DDB /* BoxView.swift in Sources */,
+				E51B321225CC84C200B77CD7 /* Circle.swift in Sources */,
 				E5118C9E25CC080D00FF807D /* PlayPreviews.swift in Sources */,
 				E5CABE6225CC1E6700A11DDB /* TiltShift.swift in Sources */,
 				E5B0597925B1E59100AC6D62 /* PixelKitSwiftUIApp.swift in Sources */,

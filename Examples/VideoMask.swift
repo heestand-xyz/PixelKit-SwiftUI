@@ -17,13 +17,13 @@ struct VideoMask: View {
                            count: 3,
                            cornerRadius: 0.1)
             }
+            .ignoresSafeArea()
     }
 }
 
 struct VideoMask_Previews: PreviewProvider {
     static var previews: some View {
         VideoMask()
-            .ignoresSafeArea()
             .overlay(PlayPreviews())
     }
 }

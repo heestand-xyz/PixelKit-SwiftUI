@@ -23,13 +23,13 @@ struct TiltShift: View {
                             ColorStop(1.0, .white),
                         ])
         }
+        .ignoresSafeArea()
     }
 }
 
 struct TiltShift_Previews: PreviewProvider {
     static var previews: some View {
         TiltShift()
-            .ignoresSafeArea()
             .overlay(PlayPreviews())
     }
 }

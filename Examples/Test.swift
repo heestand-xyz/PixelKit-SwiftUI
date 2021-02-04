@@ -15,15 +15,18 @@ struct Test: View {
             Color.black.ignoresSafeArea()
             VStack {
                 
-                CirclePIX(radius: fraction * 0.5)
+                CirclePX(radius: fraction * 0.25)
+                    .pxCircleEdgeColor(fraction > 0.5 ? .red : .green)
+                    .pxCircleEdgeRadius(0.1)
+                    .pxCirclePosition(y: (fraction - 0.5) * 0.25)
                 
                 HStack {
                     Button(action: {
                         withAnimation(.easeInOut) {
-                            fraction = 0.0
+                            fraction = 0.1
                         }
                     }, label: {
-                        Text("0.0")
+                        Text("0.1")
                             .padding(5)
                             .background(
                                 RoundedRectangle(cornerRadius: 10)

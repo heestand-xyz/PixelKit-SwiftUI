@@ -18,9 +18,9 @@ struct TiltShift: View {
         } with: {
             GradientPIX(direction: .vertical,
                         colorSteps: [
-                            ColorStep(0.0, .white),
-                            ColorStep(0.5, .black),
-                            ColorStep(1.0, .white),
+                            ColorStop(0.0, .white),
+                            ColorStop(0.5, .black),
+                            ColorStop(1.0, .white),
                         ])
         }
     }

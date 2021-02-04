@@ -4,6 +4,8 @@
 
 Realtime graphics in [PixelKit](https://github.com/heestand-xyz/PixelKit) with SwiftUI.
 
+> This project uses **Swift 5.4** and needs **Xcode 12.5 beta** or later to build.
+
 ## Setup
 
 In Xcode go to File / Swift Packages / Add Package Dependecy... enter the repo url, then specify the **lite** branch:

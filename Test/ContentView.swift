@@ -12,17 +12,19 @@ struct ContentView: View {
     @State var fraction: CGFloat = 0.5
     var body: some View {
         VStack {
+
+//            CirclePX(radius: fraction * 0.5)
+            CirclePX(radius: fraction * 0.5)
+                .pxBlur(radius: fraction * 0.25)
             
-            CirclePX(radius: fraction * 0.25)
-                .pxBlur(radius: 0.1 + fraction * 0.2)
-            
-            GeometryReader { geo in
-                RoundedRectangle(cornerRadius: 5)
-                    .opacity(0.2)
-                RoundedRectangle(cornerRadius: 5)
-                    .frame(width: 10 + fraction * (geo.size.width - 10))
-            }
-            .frame(height: 10)
+//            GeometryReader { geo in
+//                RoundedRectangle(cornerRadius: 5)
+//                    .opacity(0.2)
+//                RoundedRectangle(cornerRadius: 5)
+//                    .frame(width: 10 + fraction * (geo.size.width - 10))
+//            }
+//            .frame(height: 10)
+            Slider(value: $fraction)
             HStack {
                 Button(action: {
                     withAnimation(.easeInOut) {

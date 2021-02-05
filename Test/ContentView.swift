@@ -15,7 +15,7 @@ struct ContentView: View {
 
 //            CirclePX(radius: fraction * 0.5)
             CirclePX(radius: fraction * 0.5)
-                .pxBlur(radius: fraction * 0.25)
+//                .pxBlur(radius: fraction * 0.25)
             
 //            GeometryReader { geo in
 //                RoundedRectangle(cornerRadius: 5)

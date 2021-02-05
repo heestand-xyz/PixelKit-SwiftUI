@@ -1,6 +1,6 @@
 //
-//  Test.swift
-//  PixelKit with SwiftUI
+//  ContentView.swift
+//  Test
 //
 //  Created by Anton Heestand on 2021-02-04.
 //
@@ -8,17 +8,16 @@
 import SwiftUI
 import PixelKit
 
-struct Test: View {
-    @State var fraction: CGFloat = 0.5
+struct ContentView: View {
+    @State var fraction: CGFloat = 0.0
     var body: some View {
         ZStack {
             Color.black.ignoresSafeArea()
             VStack {
                 
-                CirclePX(radius: fraction * 0.25)
-                    .pxCircleEdgeColor(fraction > 0.5 ? .red : .green)
-                    .pxCircleEdgeRadius(0.1)
-                    .pxCirclePosition(y: (fraction - 0.5) * 0.25)
+                CirclePX(radius: 0.25)
+//                    .pxCirclePosition(y: (fraction - 0.5) * 0.5)
+                    .pxBlur(radius: fraction * 0.1)
                 
                 HStack {
                     Button(action: {
@@ -60,8 +59,8 @@ struct Test: View {
     }
 }
 
-struct Test_Previews: PreviewProvider {
+struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        Test()
+        ContentView()
     }
 }

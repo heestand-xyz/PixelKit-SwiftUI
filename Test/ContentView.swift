@@ -9,53 +9,65 @@ import SwiftUI
 import PixelKit
 
 struct ContentView: View {
-    @State var fraction: CGFloat = 0.0
+    @State var fraction: CGFloat = 0.5
     var body: some View {
-        ZStack {
-            Color.black.ignoresSafeArea()
-            VStack {
-                
-                CirclePX(radius: 0.25)
-//                    .pxCirclePosition(y: (fraction - 0.5) * 0.5)
-                    .pxBlur(radius: fraction * 0.1)
-                
-                HStack {
-                    Button(action: {
-                        withAnimation(.easeInOut) {
-                            fraction = 0.1
-                        }
-                    }, label: {
-                        Text("0.1")
-                            .padding(5)
-                            .background(
-                                RoundedRectangle(cornerRadius: 10)
-                                    .opacity(0.25)
-                            )
-                    })
-                    GeometryReader { geo in
-                        RoundedRectangle(cornerRadius: 5)
-                            .opacity(0.2)
-                        RoundedRectangle(cornerRadius: 5)
-                            .frame(width: 10 + fraction * (geo.size.width - 10))
-                    }
-                    .frame(height: 10)
-                    Button(action: {
-                        withAnimation(.easeInOut) {
-                            fraction = 1.0
-                        }
-                    }, label: {
-                        Text("1.0")
-                            .padding(5)
-                            .background(
-                                RoundedRectangle(cornerRadius: 10)
-                                    .opacity(0.25)
-                            )
-                    })
-                }
+        VStack {
+            
+            CirclePX(radius: fraction * 0.25)
+                .pxBlur(radius: 0.1 + fraction * 0.2)
+            
+            GeometryReader { geo in
+                RoundedRectangle(cornerRadius: 5)
+                    .opacity(0.2)
+                RoundedRectangle(cornerRadius: 5)
+                    .frame(width: 10 + fraction * (geo.size.width - 10))
             }
-            .environment(\.colorScheme, .dark)
-            .padding()
+            .frame(height: 10)
+            HStack {
+                Button(action: {
+                    withAnimation(.easeInOut) {
+                        fraction = 0.0
+                    }
+                }, label: {
+                    Text("0.0")
+                        .padding(5)
+                        .background(
+                            RoundedRectangle(cornerRadius: 10)
+                                .opacity(0.25)
+                        )
+                })
+                .disabled(fraction == 0.0)
+                Spacer()
+                Button(action: {
+                    withAnimation(.easeInOut) {
+                        fraction = 0.5
+                    }
+                }, label: {
+                    Text("0.5")
+                        .padding(5)
+                        .background(
+                            RoundedRectangle(cornerRadius: 10)
+                                .opacity(0.25)
+                        )
+                })
+                .disabled(fraction == 0.5)
+                Spacer()
+                Button(action: {
+                    withAnimation(.easeInOut) {
+                        fraction = 1.0
+                    }
+                }, label: {
+                    Text("1.0")
+                        .padding(5)
+                        .background(
+                            RoundedRectangle(cornerRadius: 10)
+                                .opacity(0.25)
+                        )
+                })
+                .disabled(fraction == 1.0)
+            }
         }
+        .padding()
     }
 }
 

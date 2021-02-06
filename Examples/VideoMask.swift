@@ -11,6 +11,7 @@ import PixelKit
 struct VideoMask: View {
     var body: some View {
         VideoPIX(named: "homie_by_beeple.mp4")
+            .pixFlopRight()
             .pixScaleResolution(placement: .fill)
             .pixMask {
                 PolygonPIX(radius: 0.35,

@@ -15,7 +15,7 @@ struct ContentView: View {
 
 //            CirclePX(radius: fraction * 0.5)
             CirclePX(radius: fraction * 0.5)
-//                .pxBlur(radius: fraction * 0.25)
+                .pxBlur(radius: fraction)
             
 //            GeometryReader { geo in
 //                RoundedRectangle(cornerRadius: 5)
@@ -42,6 +42,20 @@ struct ContentView: View {
                 Spacer()
                 Button(action: {
                     withAnimation(.easeInOut) {
+                        fraction = 0.25
+                    }
+                }, label: {
+                    Text("0.25")
+                        .padding(5)
+                        .background(
+                            RoundedRectangle(cornerRadius: 10)
+                                .opacity(0.25)
+                        )
+                })
+                .disabled(fraction == 0.25)
+                Spacer()
+                Button(action: {
+                    withAnimation(.easeInOut) {
                         fraction = 0.5
                     }
                 }, label: {
@@ -53,6 +67,20 @@ struct ContentView: View {
                         )
                 })
                 .disabled(fraction == 0.5)
+                Spacer()
+                Button(action: {
+                    withAnimation(.easeInOut) {
+                        fraction = 0.75
+                    }
+                }, label: {
+                    Text("0.75")
+                        .padding(5)
+                        .background(
+                            RoundedRectangle(cornerRadius: 10)
+                                .opacity(0.25)
+                        )
+                })
+                .disabled(fraction == 0.75)
                 Spacer()
                 Button(action: {
                     withAnimation(.easeInOut) {

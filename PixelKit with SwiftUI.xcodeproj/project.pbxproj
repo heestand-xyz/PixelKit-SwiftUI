@@ -15,8 +15,6 @@
 		E5118CA225CC0B0800FF807D /* homie_by_beeple.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E5118CA025CC0B0800FF807D /* homie_by_beeple.mp4 */; };
 		E5118CA425CC0B4F00FF807D /* VideoMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5118CA325CC0B4F00FF807D /* VideoMask.swift */; };
 		E5118CA525CC0B4F00FF807D /* VideoMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5118CA325CC0B4F00FF807D /* VideoMask.swift */; };
-		E51B321125CC84C200B77CD7 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51B321025CC84C200B77CD7 /* Circle.swift */; };
-		E51B321225CC84C200B77CD7 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51B321025CC84C200B77CD7 /* Circle.swift */; };
 		E558E95425CC2DD400E38970 /* PixelKit in Frameworks */ = {isa = PBXBuildFile; productRef = E558E95325CC2DD400E38970 /* PixelKit */; };
 		E558E95625CC2DDA00E38970 /* PixelKit in Frameworks */ = {isa = PBXBuildFile; productRef = E558E95525CC2DDA00E38970 /* PixelKit */; };
 		E5B0597825B1E59100AC6D62 /* PixelKitSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B0596525B1E59000AC6D62 /* PixelKitSwiftUIApp.swift */; };
@@ -31,11 +29,6 @@
 		E5CABE5E25CC1C4800A11DDB /* Monochrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CABE5C25CC1C4800A11DDB /* Monochrome.swift */; };
 		E5CABE6125CC1E6700A11DDB /* TiltShift.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CABE6025CC1E6700A11DDB /* TiltShift.swift */; };
 		E5CABE6225CC1E6700A11DDB /* TiltShift.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CABE6025CC1E6700A11DDB /* TiltShift.swift */; };
-		E5E9A14825CC87D0007E9818 /* TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E9A14725CC87D0007E9818 /* TestApp.swift */; };
-		E5E9A14A25CC87D0007E9818 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E9A14925CC87D0007E9818 /* ContentView.swift */; };
-		E5E9A14C25CC87D1007E9818 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5E9A14B25CC87D1007E9818 /* Assets.xcassets */; };
-		E5E9A14F25CC87D1007E9818 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5E9A14E25CC87D1007E9818 /* Preview Assets.xcassets */; };
-		E5E9A15625CC880A007E9818 /* PixelKit in Frameworks */ = {isa = PBXBuildFile; productRef = E5E9A15525CC880A007E9818 /* PixelKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,7 +36,6 @@
 		E5118C9C25CC080D00FF807D /* PlayPreviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayPreviews.swift; sourceTree = "<group>"; };
 		E5118CA025CC0B0800FF807D /* homie_by_beeple.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = homie_by_beeple.mp4; sourceTree = "<group>"; };
 		E5118CA325CC0B4F00FF807D /* VideoMask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoMask.swift; sourceTree = "<group>"; };
-		E51B321025CC84C200B77CD7 /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
 		E5415B5425CC26C80087257C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E5B0596525B1E59000AC6D62 /* PixelKitSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelKitSwiftUIApp.swift; sourceTree = "<group>"; };
 		E5B0596625B1E59000AC6D62 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,12 +48,6 @@
 		E5CABE5825CC1B0000A11DDB /* BoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxView.swift; sourceTree = "<group>"; };
 		E5CABE5C25CC1C4800A11DDB /* Monochrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monochrome.swift; sourceTree = "<group>"; };
 		E5CABE6025CC1E6700A11DDB /* TiltShift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiltShift.swift; sourceTree = "<group>"; };
-		E5E9A14525CC87D0007E9818 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5E9A14725CC87D0007E9818 /* TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApp.swift; sourceTree = "<group>"; };
-		E5E9A14925CC87D0007E9818 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		E5E9A14B25CC87D1007E9818 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E5E9A14E25CC87D1007E9818 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E5E9A15025CC87D1007E9818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +67,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5E9A14225CC87D0007E9818 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E5E9A15625CC880A007E9818 /* PixelKit in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -99,7 +77,6 @@
 				E5CABE5C25CC1C4800A11DDB /* Monochrome.swift */,
 				E5118C9925CC07D200FF807D /* ColorTriangle.swift */,
 				E5118CA325CC0B4F00FF807D /* VideoMask.swift */,
-				E51B321025CC84C200B77CD7 /* Circle.swift */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -112,7 +89,6 @@
 				E5B0596425B1E59000AC6D62 /* Shared */,
 				E5B0596E25B1E59100AC6D62 /* iOS */,
 				E5B0597525B1E59100AC6D62 /* macOS */,
-				E5E9A14625CC87D0007E9818 /* Test */,
 				E5B0596D25B1E59100AC6D62 /* Products */,
 				E5EA437025B1E5C400BA8850 /* Frameworks */,
 			);
@@ -134,7 +110,6 @@
 			children = (
 				E5B0596C25B1E59100AC6D62 /* PixelKit with SwiftUI.app */,
 				E5B0597425B1E59100AC6D62 /* PixelKit.app */,
-				E5E9A14525CC87D0007E9818 /* Test.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -172,26 +147,6 @@
 				E5CABE5825CC1B0000A11DDB /* BoxView.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		E5E9A14625CC87D0007E9818 /* Test */ = {
-			isa = PBXGroup;
-			children = (
-				E5E9A14725CC87D0007E9818 /* TestApp.swift */,
-				E5E9A14925CC87D0007E9818 /* ContentView.swift */,
-				E5E9A14B25CC87D1007E9818 /* Assets.xcassets */,
-				E5E9A15025CC87D1007E9818 /* Info.plist */,
-				E5E9A14D25CC87D1007E9818 /* Preview Content */,
-			);
-			path = Test;
-			sourceTree = "<group>";
-		};
-		E5E9A14D25CC87D1007E9818 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				E5E9A14E25CC87D1007E9818 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		E5EA437025B1E5C400BA8850 /* Frameworks */ = {
@@ -244,26 +199,6 @@
 			productReference = E5B0597425B1E59100AC6D62 /* PixelKit.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E5E9A14425CC87D0007E9818 /* Test */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E5E9A15325CC87D1007E9818 /* Build configuration list for PBXNativeTarget "Test" */;
-			buildPhases = (
-				E5E9A14125CC87D0007E9818 /* Sources */,
-				E5E9A14225CC87D0007E9818 /* Frameworks */,
-				E5E9A14325CC87D0007E9818 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Test;
-			packageProductDependencies = (
-				E5E9A15525CC880A007E9818 /* PixelKit */,
-			);
-			productName = Test;
-			productReference = E5E9A14525CC87D0007E9818 /* Test.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -278,9 +213,6 @@
 					};
 					E5B0597325B1E59100AC6D62 = {
 						CreatedOnToolsVersion = 12.3;
-					};
-					E5E9A14425CC87D0007E9818 = {
-						CreatedOnToolsVersion = 12.5;
 					};
 				};
 			};
@@ -302,7 +234,6 @@
 			targets = (
 				E5B0596B25B1E59100AC6D62 /* PixelKit with SwiftUI (iOS) */,
 				E5B0597325B1E59100AC6D62 /* PixelKit with SwiftUI (macOS) */,
-				E5E9A14425CC87D0007E9818 /* Test */,
 			);
 		};
 /* End PBXProject section */
@@ -326,15 +257,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5E9A14325CC87D0007E9818 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E5E9A14F25CC87D1007E9818 /* Preview Assets.xcassets in Resources */,
-				E5E9A14C25CC87D1007E9818 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -346,7 +268,6 @@
 				E5118C9A25CC07D200FF807D /* ColorTriangle.swift in Sources */,
 				E5B0597A25B1E59100AC6D62 /* ContentView.swift in Sources */,
 				E5CABE5925CC1B0000A11DDB /* BoxView.swift in Sources */,
-				E51B321125CC84C200B77CD7 /* Circle.swift in Sources */,
 				E5118C9D25CC080D00FF807D /* PlayPreviews.swift in Sources */,
 				E5CABE6125CC1E6700A11DDB /* TiltShift.swift in Sources */,
 				E5B0597825B1E59100AC6D62 /* PixelKitSwiftUIApp.swift in Sources */,
@@ -362,20 +283,10 @@
 				E5118C9B25CC07D200FF807D /* ColorTriangle.swift in Sources */,
 				E5B0597B25B1E59100AC6D62 /* ContentView.swift in Sources */,
 				E5CABE5A25CC1B0000A11DDB /* BoxView.swift in Sources */,
-				E51B321225CC84C200B77CD7 /* Circle.swift in Sources */,
 				E5118C9E25CC080D00FF807D /* PlayPreviews.swift in Sources */,
 				E5CABE6225CC1E6700A11DDB /* TiltShift.swift in Sources */,
 				E5B0597925B1E59100AC6D62 /* PixelKitSwiftUIApp.swift in Sources */,
 				E5118CA525CC0B4F00FF807D /* VideoMask.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E5E9A14125CC87D0007E9818 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E5E9A14A25CC87D0007E9818 /* ContentView.swift in Sources */,
-				E5E9A14825CC87D0007E9818 /* TestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,53 +499,6 @@
 			};
 			name = Release;
 		};
-		E5E9A15125CC87D1007E9818 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Test/Preview Content\"";
-				DEVELOPMENT_TEAM = 2QHTY6FMW2;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Test/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.heestand.Test;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		E5E9A15225CC87D1007E9818 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Test/Preview Content\"";
-				DEVELOPMENT_TEAM = 2QHTY6FMW2;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Test/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.heestand.Test;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -665,15 +529,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E5E9A15325CC87D1007E9818 /* Build configuration list for PBXNativeTarget "Test" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E5E9A15125CC87D1007E9818 /* Debug */,
-				E5E9A15225CC87D1007E9818 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
@@ -696,10 +551,6 @@
 		E558E95525CC2DDA00E38970 /* PixelKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = E558E95225CC2DD400E38970 /* XCRemoteSwiftPackageReference "PixelKit" */;
-			productName = PixelKit;
-		};
-		E5E9A15525CC880A007E9818 /* PixelKit */ = {
-			isa = XCSwiftPackageProductDependency;
 			productName = PixelKit;
 		};
 /* End XCSwiftPackageProductDependency section */
